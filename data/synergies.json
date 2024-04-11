@@ -1,0 +1,685 @@
+{
+    "origins": [
+        {
+            "id": "demon",
+            "name": "Demon",
+            "levels": 3,
+            "description": "Attacks from Demons have [x1]% chance to burn all of an enemy's mana and deal true damage equal to mana burned",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": 20
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 4
+                    },
+                    "values": {
+                        "x1": 35
+                    }
+                },
+                {
+                    "level": 3,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": 60
+                    }
+                }
+            ]
+        },
+        {
+            "id": "dragon",
+            "name": "Dragon",
+            "levels": 1,
+            "description": "Dragons gain [x1]% resistance to Magic Damage",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": 83
+                    }
+                }
+            ]
+        },
+        {
+            "id": "exile",
+            "name": "Exile",
+            "levels": 1,
+            "description": "If Exiles have no adjacent allies at the start of combat, yhey gain a shield equals to [x1]% of their maximum health",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 1
+                    },
+                    "values": {
+                        "x1": 100
+                    }
+                }
+            ]
+        },
+        {
+            "id": "glacial",
+            "name": "Glacial",
+            "levels": 3,
+            "description": "Glacial attacks gain [x1]% chance to stun enemies for 2s",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": 20
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 4
+                    },
+                    "values": {
+                        "x1": 35
+                    }
+                },
+                {
+                    "level": 3,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": 45
+                    }
+                }
+            ]
+        },
+        {
+            "id": "hextech",
+            "name": "Hextech",
+            "levels": 2,
+            "description": "When combat begins, temporarily disabling nearby enemy within [x1] hexes items for 8s",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": 1
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 4
+                    },
+                    "values": {
+                        "x1": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": "imperial",
+            "name": "Imperial",
+            "levels": 2,
+            "description": "[x1] gain double damage",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": "1 Random Imperial"
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 4
+                    },
+                    "values": {
+                        "x1": "All Imperials"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ninja",
+            "name": "Ninja",
+            "levels": 2,
+            "description": "Ninjas gain +[x1]% Attack Damage and Spell Power",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "values": {
+                        "x1": 40
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 4
+                    },
+                    "values": {
+                        "x1": 60
+                    }
+                }
+            ]
+        },
+        {
+            "id": "noble",
+            "name": "Noble",
+            "levels": 2,
+            "description": "[x1] +60 Armor and Magic Resist, also heal 35 Health on hit",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 3
+                    },
+                    "values": {
+                        "x1": "1 Random Ally"
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": "All Allies"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "phantom",
+            "name": "Phantom",
+            "levels": 1,
+            "description": "At the start of combat, set a randam enemy HP to [x1]",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": 100
+                    }
+                }
+            ]
+        },
+        {
+            "id": "pirate",
+            "name": "Pirate",
+            "levels": 1,
+            "description": "At the end of combat against another player, gain up to [x1] additional gold",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 3
+                    },
+                    "values": {
+                        "x1": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": "robot",
+            "name": "Robot",
+            "levels": 1,
+            "description": "Robots start combat at [x1]% mana",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 1
+                    },
+                    "values": {
+                        "x1": 100
+                    }
+                }
+            ]
+        },
+        {
+            "id": "void",
+            "name": "Void",
+            "levels": 1,
+            "description": "Void champions now deal [x1]",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 3
+                    },
+                    "values": {
+                        "x1": "True Damage"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "wild",
+            "name": "Wild",
+            "levels": 2,
+            "description": "[x1] attacks generate stacks of Fury(stacks up to 5 times). Each stack of Fury gives 10% Attack Speed",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": "Wild Allies"
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 4
+                    },
+                    "values": {
+                        "x1": "All Allies"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "yordle",
+            "name": "Yordle",
+            "levels": 2,
+            "description": "Yordles gain [x1]% chance to dodge enemy attacks",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 3
+                    },
+                    "values": {
+                        "x1": 30
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": 55
+                    }
+                }
+            ]
+        }
+    ],
+    "classes": [
+        {
+            "id": "assassin",
+            "name": "Assassin",
+            "levels": 2,
+            "description": "Assassins gain +[x1]% Critical Strike Damage",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 3
+                    },
+                    "values": {
+                        "x1": 125
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": 350
+                    }
+                }
+            ]
+        },
+        {
+            "id": "blademaster",
+            "name": "Blademaster",
+            "levels": 3,
+            "description": "Blademaster attacks have a 45% chance to trigger [x1] additional attacks on-hit",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 3
+                    },
+                    "values": {
+                        "x1": 1
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": 2
+                    }
+                },
+                {
+                    "level": 3,
+                    "combinations": {
+                        "min": 9
+                    },
+                    "values": {
+                        "x1": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": "brawler",
+            "name": "Brawler",
+            "levels": 3,
+            "description": "Brawlers gain [x1] bonus Health",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": 300
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 4
+                    },
+                    "values": {
+                        "x1": 700
+                    }
+                },
+                {
+                    "level": 3,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": 1200
+                    }
+                }
+            ]
+        },
+        {
+            "id": "elementalist",
+            "name": "Elementalist",
+            "levels": 1,
+            "description": "At the start of combat, summon [x1] Golems",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 3
+                    },
+                    "values": {
+                        "x1": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "guardian",
+            "name": "Guardian",
+            "levels": 1,
+            "description": "At the start of combat, Guardians grant +[x1] Armor to adjacent allies. This Armor can stack (except guardians)",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": 50
+                    }
+                }
+            ]
+        },
+        {
+            "id": "gunslinger",
+            "name": "Gunslinger",
+            "levels": 3,
+            "description": "Gunslinger attacks gain a 50% chance to attack [x1] extra enemies on-hit",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": 1
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 4
+                    },
+                    "values": {
+                        "x1": 2
+                    }
+                },
+                {
+                    "level": 3,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "knight",
+            "name": "Knight",
+            "levels": 3,
+            "description": "All allies block [x1] damage taken",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": 15
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 4
+                    },
+                    "values": {
+                        "x1": 30
+                    }
+                },
+                {
+                    "level": 3,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": 55
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ranger",
+            "name": "Ranger",
+            "levels" : 2,
+            "description": "Rangers gain a [x1]% chance to double their attack speed every 3s for the next 3s",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 2
+                    },
+                    "values": {
+                        "x1": 25
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 4
+                    },
+                    "values": {
+                        "x1": 65
+                    }
+                }
+            ]
+        },
+        {
+            "id": "shapeshifter",
+            "name": "Shapeshifter",
+            "levels": 2,
+            "description": "Shapeshifters gain [x1]% bonus maximum Health when they transform",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 3
+                    },
+                    "values": {
+                        "x1": 60
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": 120
+                    }
+                }
+            ]
+        },
+        {
+            "id": "sorcerer",
+            "name": "Sorcerer",
+            "levels": 2,
+            "description": "All allies have increased +[x1]% Spell Power",
+            "vars": [
+                "x1"
+            ],
+            "effects": [
+                {
+                    "level": 1,
+                    "combinations": {
+                        "min": 3
+                    },
+                    "values": {
+                        "x1": 45
+                    }
+                },
+                {
+                    "level": 2,
+                    "combinations": {
+                        "min": 6
+                    },
+                    "values": {
+                        "x1": 100
+                    }
+                }
+            ]
+        }
+    ]
+}

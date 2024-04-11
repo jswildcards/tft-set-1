@@ -1,0 +1,402 @@
+[
+    {
+        "id": "bf-sword",
+        "riotId": "1038",
+        "name": "B. F. Sword",
+        "effect": "+20 Attack Damage"
+    },
+    {
+        "id": "recurve-bow",
+        "riotId": "1043",
+        "name": "Recurve Bow",
+        "effect": "+20% Attack Speed"
+    },
+    {
+        "id": "chain-vest",
+        "riotId": "1031",
+        "name": "Chain Vest",
+        "effect": "+20 Armor"
+    },
+    {
+        "id": "negatron-cloak",
+        "riotId": "1057",
+        "name": "Negatron Cloak",
+        "effect": "+20 Magic Resist"
+    },
+    {
+        "id": "needlessly-large-rod",
+        "riotId": "1058",
+        "name": "Needlessly Large Rod",
+        "effect": "+20% Spell Damage"
+    },
+    {
+        "id": "tear-of-the-goddess",
+        "riotId": "3070",
+        "name": "Tear of the Goddess",
+        "effect": "+20 Starting Mana"
+    },
+    {
+        "id": "giants-belt",
+        "riotId": "1011",
+        "name": "Giant's Belt",
+        "effect": "+200 Health"
+    },
+    {
+        "id": "spatula",
+        "lolChessId": "Spatula",
+        "name": "Spatula",
+        "effect": "You will get a special ability"
+    },
+    {
+        "id": "infinity-edge",
+        "riotId": "3031",
+        "name": "Infinity Edge",
+        "effect": "Critical Strikes deal +150% damage",
+        "recipes": {
+            "bf-sword": 2
+        }
+    },
+    {
+        "id": "sword-of-the-divine",
+        "riotId": "3131",
+        "name": "Sword of the Divine",
+        "effect": "Each second, the wearer has a 7% chance to gain 100% Critical Strike",
+        "recipes": {
+            "bf-sword": 1,
+            "recurve-bow": 1
+        }
+    },
+    {
+        "id": "guardian-angel",
+        "riotId": "3026",
+        "name": "Guardian Angel",
+        "effect": "Wearer revives with 800 HP",
+        "recipes": {
+            "bf-sword": 1,
+            "chain-vest": 1
+        }
+    },
+    {
+        "id": "the-bloodthirster",
+        "riotId": "3072",
+        "name": "The Bloodthirster",
+        "effect": "Attacks heal for 50% of damage",
+        "recipes": {
+            "bf-sword": 1,
+            "negatron-cloak": 1
+        }
+    },
+    {
+        "id": "hextech-gunblade",
+        "riotId": "3146",
+        "name": "Hextech Gunblade",
+        "effect": "Heal for 33% of all damage dealt",
+        "recipes": {
+            "bf-sword": 1,
+            "needlessly-large-rod": 1
+        }
+    },
+    {
+        "id": "spear-of-shojin",
+        "riotId": "3161",
+        "name": "Spear of Shojin",
+        "effect": "After casting, wearer gains 15% of its max Mana per attack",
+        "recipes": {
+            "bf-sword": 1,
+            "tear-of-the-goddess": 1
+        }
+    },
+    {
+        "id": "zekes-herald",
+        "riotId": "3050",
+        "name": "Zeke's Herald",
+        "effect": "After the start of combat, allies within the same row gain +15% Attack Speed for the rest of combat",
+        "recipes": {
+            "bf-sword": 1,
+            "giants-belt": 1
+        }
+    },
+    {
+        "id": "youmuus-ghostblade",
+        "riotId": "3142",
+        "name": "Youmuu's Ghostblade",
+        "effect": "+20 Attack Damage. Wearer is also an Assassin",
+        "recipes": {
+            "bf-sword": 1,
+            "spatula": 1
+        }
+    },
+    {
+        "id": "rapid-firecannon",
+        "riotId": "3094",
+        "name": "Rapid Firecannon",
+        "effect": "Wearer's attacks cannot be dodged. Attack Range is doubled",
+        "recipes": {
+            "recurve-bow": 2
+        }
+    },
+    {
+        "id": "phantom-dancer",
+        "riotId": "3046",
+        "name": "Phantom Dancer",
+        "effect": "Wearer dodges all Critical Strikes",
+        "recipes": {
+            "recurve-bow": 1,
+            "chain-vest": 1
+        }
+    },
+    {
+        "id": "cursed-blade",
+        "lolChessId": "CursedBlade",
+        "name": "Cursed Blade",
+        "effect": "Attacks on-hit have a low chance to reduce enemy's star level by 1 for the rest of combat",
+        "recipes": {
+            "recurve-bow": 1,
+            "negatron-cloak": 1
+        }
+    },
+    {
+        "id": "guinsoos-rageblade",
+        "riotId": "3124",
+        "name": "Guinsoo's Rageblade",
+        "effect": "Attack grant 5% Attack Speed. Stacks infinitely",
+        "recipes": {
+            "recurve-bow": 1,
+            "needlessly-large-rod": 1
+        }
+    },
+    {
+        "id": "statikk-shiv",
+        "riotId": "3087",
+        "name": "Statikk Shiv",
+        "effect": "Every 3rd attack deals 90 splash magical damage",
+        "recipes": {
+            "recurve-bow": 1,
+            "tear-of-the-goddess": 1
+        }
+    },
+    {
+        "id": "titanic-hydra",
+        "riotId": "3074",
+        "name": "Titanic Hydra",
+        "effect": "Attacks deal 10% of the wearer's max Health as splash damage",
+        "recipes": {
+            "recurve-bow": 1,
+            "giants-belt": 1
+        }
+    },
+    {
+        "id": "blade-of-the-ruined-king",
+        "riotId": "3149",
+        "name": "Blade of the Ruined King",
+        "effect": "+20% Attack Speed. Wearer is also a Blademaster",
+        "recipes": {
+            "recurve-bow": 1,
+            "spatula": 1
+        }
+    },
+    {
+        "id": "thornmail",
+        "riotId": "3075",
+        "name": "Thornmail",
+        "effect": "Reflect 100% of damage mitigated from attacks",
+        "recipes": {
+            "chain-vest": 2
+        }
+    },
+    {
+        "id": "sword-breaker",
+        "lolChessId": "SwordBreaker",
+        "name": "Sword Beaker",
+        "effect": "Attacks have a chance to disarm for 4s",
+        "recipes": {
+            "chain-vest": 1,
+            "negatron-cloak": 1
+        }
+    },
+    {
+        "id": "locket-of-the-iron-solari",
+        "riotId": "3190",
+        "name": "Locket of the Iron Solari",
+        "effect": "On start of combat, all adjacent allies gain a shield of 250",
+        "recipes": {
+            "chain-vest": 1,
+            "needlessly-large-rod": 1
+        }
+    },
+    {
+        "id": "frozen-heart",
+        "riotId": "3110",
+        "name": "Frozen Heart",
+        "effect": "Adjacent enemies lose 25% Attack Speed",
+        "recipes": {
+            "chain-vest": 1,
+            "tear-of-the-goddess": 1
+        }
+    },
+    {
+        "id": "red-buff",
+        "lolChessId": "RedBuff",
+        "name": "Red Buff",
+        "effect": "Attacks deal 13% of the enemy's maximum Health as burn damage over 5s and prevent healing",
+        "recipes": {
+            "chain-vest": 1,
+            "giants-belt": 1
+        }
+    },
+    {
+        "id": "knights-vow",
+        "riotId": "3109",
+        "name": "Knight's Vow",
+        "effect": "+20 Armor. Wearer is also a Knight",
+        "recipes": {
+            "chain-vest": 1,
+            "spatula": 1
+        }
+    },
+    {
+        "id": "dragons-claw",
+        "lolChessId": "DragonsClaw",
+        "name": "Dragon's Claw",
+        "effect": "Gain 83% resistance to magic damage",
+        "recipes": {
+            "negatron-cloak": 2
+        }
+    },
+    {
+        "id": "ionic-spark",
+        "lolChessId": "IonicSpark",
+        "name": "Ionic Spark",
+        "effect": "Whenever an enemy casts a spell, they take 150 damage",
+        "recipes": {
+            "negatron-cloak": 1,
+            "needlessly-large-rod": 1
+        }
+    },
+    {
+        "id": "hush",
+        "lolChessId": "Hush",
+        "name": "Hush",
+        "effect": "Attacks on-hit have a high chance to silence, preventing the enemy from casting spells for 3s",
+        "recipes": {
+            "negatron-cloak": 1,
+            "tear-of-the-goddess": 1
+        }
+    },
+    {
+        "id": "zephyr",
+        "riotId": "3172",
+        "name": "Zephyr",
+        "effect": "On start of combat, banish an enemy for 5s",
+        "recipes": {
+            "negatron-cloak": 1,
+            "giants-belt": 1
+        }
+    },
+    {
+        "id": "runaans-hurricane",
+        "riotId": "3085",
+        "name": "Runaan's Hurricane",
+        "effect": "Summon a spirit who mirrors your attacks, dealing 75% Damage",
+        "recipes": {
+            "negatron-cloak": 1,
+            "spatula": 1
+        }
+    },
+    {
+        "id": "rabadons-deathcap",
+        "riotId": "3089",
+        "name": "Rabadon's Deathcap",
+        "effect": "Wearer's Spell Power stat is amplified by 50%",
+        "recipes": {
+            "needlessly-large-rod": 2
+        }
+    },
+    {
+        "id": "ludens-echo",
+        "riotId": "3285",
+        "name": "Luden's Echo",
+        "effect": "Spells deal 200 splash damage on hit",
+        "recipes": {
+            "needlessly-large-rod": 1,
+            "tear-of-the-goddess": 1
+        }
+    },
+    {
+        "id": "morellonomicon",
+        "riotId": "3165",
+        "name": "Morellonomicon",
+        "effect": "Spells deal burn damage equal to 20% of the enemy;s maximum health over 5s and prevent healing",
+        "recipes": {
+            "needlessly-large-rod": 1,
+            "giants-belt": 1
+        }
+    },
+    {
+        "id": "yuumi",
+        "lolChessId": "Yuumi",
+        "name": "Yuumi",
+        "effect": "+20% Spell Power. Wearer is also a Sorcerer",
+        "recipes": {
+            "needlessly-large-rod": 1,
+            "spatula": 1
+        }
+    },
+    {
+        "id": "seraphs-embrace",
+        "riotId": "3040",
+        "name": "Seraph's Embrace",
+        "effect": "Wearer regains 20 mana after spellcast",
+        "recipes": {
+            "tear-of-the-goddess": 2
+        }
+    },
+    {
+        "id": "redemption",
+        "riotId": "3107",
+        "name": "Redemption",
+        "effect": "On crossing below 25% health, heal all nearby allies for 1000 Health",
+        "recipes": {
+            "tear-of-the-goddess": 1,
+            "giants-belt": 1
+        }
+    },
+    {
+        "id": "darkin",
+        "lolChessId": "Aatrox",
+        "name": "Darkin",
+        "effect": "+20 Starting Mana. Wearer is also a Demon",
+        "recipes": {
+            "tear-of-the-goddess": 1,
+            "spatula": 1
+        }
+    },
+    {
+        "id": "warmogs-armor",
+        "riotId": "3083",
+        "name": "Warmog's Armor",
+        "effect": "Wearer regenerates 6% max Health per second",
+        "recipes": {
+            "giants-belt": 2
+        }
+    },
+    {
+        "id": "frozen-mallet",
+        "riotId": "3022",
+        "name": "Frozen Mallet",
+        "effect": "+200 Health. Wearer is also a Glacial",
+        "recipes": {
+            "giants-belt": 1,
+            "spatula": 1
+        }
+    },
+    {
+        "id": "force-of-nature",
+        "riotId": "4401",
+        "name": "Force of Nature",
+        "effect": "Gain +1 team size",
+        "recipes": {
+            "spatula": 2
+        }
+    }
+]

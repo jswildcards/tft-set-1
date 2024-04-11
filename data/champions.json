@@ -1,0 +1,556 @@
+[
+    {
+        "id": "aatrox",
+        "riotId": "Aatrox",
+        "name": "Aatrox",
+        "cost": 3,
+        "synergies": [
+            "demon",
+            "blademaster"
+        ]
+    },
+    {
+        "id": "ahri",
+        "riotId": "Ahri",
+        "name": "Ahri",
+        "cost": 2,
+        "synergies": [
+            "wild",
+            "sorcerer"
+        ]
+    },
+    {
+        "id": "akali",
+        "riotId": "Akali",
+        "name": "Akali",
+        "cost": 4,
+        "synergies": [
+            "ninja",
+            "assassin"
+        ]
+    },
+    {
+        "id": "anivia",
+        "riotId": "Anivia",
+        "name": "Anivia",
+        "cost": 5,
+        "synergies": [
+            "glacial",
+            "elementalist"
+        ]
+    },
+    {
+        "id": "ashe",
+        "riotId": "Ashe",
+        "name": "Ashe",
+        "cost": 3,
+        "synergies": [
+            "glacial",
+            "ranger"
+        ]
+    },
+    {
+        "id": "aurelion-sol",
+        "riotId": "AurelionSol",
+        "name": "Aurelion Sol",
+        "cost": 4,
+        "synergies": [
+            "dragon",
+            "sorcerer"
+        ]
+    },
+    {
+        "id": "blitzcrank",
+        "riotId": "Blitzcrank",
+        "name": "Blitzcrank",
+        "cost": 2,
+        "synergies": [
+            "robot",
+            "brawler"
+        ]
+    },
+    {
+        "id": "brand",
+        "riotId": "Brand",
+        "name": "Brand",
+        "cost": 4,
+        "synergies": [
+            "demon",
+            "elementalist"
+        ]
+    },
+    {
+        "id": "braum",
+        "riotId": "Braum",
+        "name": "Braum",
+        "cost": 2,
+        "synergies": [
+            "glacial",
+            "guardian"
+        ]
+    },
+    {
+        "id": "camille",
+        "riotId": "Camille",
+        "name": "Camille",
+        "cost": 1,
+        "synergies": [
+            "hextech",
+            "blademaster"
+        ]
+    },
+    {
+        "id": "chogath",
+        "riotId": "Chogath",
+        "name": "Cho'Gath",
+        "cost": 4,
+        "synergies": [
+            "void",
+            "brawler"
+        ]
+    },
+    {
+        "id": "daruis",
+        "riotId": "Darius",
+        "name": "Daruis",
+        "cost": 1,
+        "synergies": [
+            "imperial",
+            "knight"
+        ]
+    },
+    {
+        "id": "draven",
+        "riotId": "Draven",
+        "name": "Draven",
+        "cost": 4,
+        "synergies": [
+            "imperial",
+            "blademaster"
+        ]
+    },
+    {
+        "id": "elise",
+        "riotId": "Elise",
+        "name": "Elise",
+        "cost": 1,
+        "synergies": [
+            "demon",
+            "shapeshifter"
+        ]
+    },
+    {
+        "id": "evelynn",
+        "riotId": "Evelynn",
+        "name": "Evelynn",
+        "cost": 3,
+        "synergies": [
+            "demon",
+            "assassin"
+        ]
+    },
+    {
+        "id": "fiora",
+        "riotId": "Fiora",
+        "name": "Fiora",
+        "cost": 1,
+        "synergies": [
+            "noble",
+            "blademaster"
+        ]
+    },
+    {
+        "id": "gangplank",
+        "riotId": "Gangplank",
+        "name": "Gangplank",
+        "cost": 3,
+        "synergies": [
+            "pirate",
+            "blademaster",
+            "gunslinger"
+        ]
+    },
+    {
+        "id": "garen",
+        "riotId": "Garen",
+        "name": "Garen",
+        "cost": 1,
+        "synergies": [
+            "noble",
+            "knight"
+        ]
+    },
+    {
+        "id": "gnar",
+        "riotId": "Gnar",
+        "name": "Gnar",
+        "cost": 4,
+        "synergies": [
+            "wild",
+            "yordle",
+            "shapeshifter"
+        ]
+    },
+    {
+        "id": "graves",
+        "riotId": "Graves",
+        "name": "Graves",
+        "cost": 1,
+        "synergies": [
+            "pirate",
+            "gunslinger"
+        ]
+    },
+    {
+        "id": "jayce",
+        "riotId": "Jayce",
+        "name": "Jayce",
+        "cost": 2,
+        "synergies": [
+            "hextech",
+            "shapeshifter"
+        ]
+    },
+    {
+        "id": "jinx",
+        "riotId": "Jinx",
+        "name": "Jinx",
+        "cost": 4,
+        "synergies": [
+            "hextech",
+            "gunslinger"
+        ]
+    },
+    {
+        "id": "karthus",
+        "riotId": "Karthus",
+        "name": "Karthus",
+        "cost": 5,
+        "synergies": [
+            "phantom",
+            "sorcerer"
+        ]
+    },
+    {
+        "id": "kassadin",
+        "riotId": "Kassadin",
+        "name": "Kassadin",
+        "cost": 1,
+        "synergies": [
+            "void",
+            "sorcerer"
+        ]
+    },
+    {
+        "id": "katarina",
+        "riotId": "Katarina",
+        "name": "Katarina",
+        "cost": 3,
+        "synergies": [
+            "imperial",
+            "assassin"
+        ]
+    },
+    {
+        "id": "kayle",
+        "riotId": "Kayle",
+        "name": "Kayle",
+        "cost": 5,
+        "synergies": [
+            "noble",
+            "knight"
+        ]
+    },
+    {
+        "id": "kennen",
+        "riotId": "Kennen",
+        "name": "Kennen",
+        "cost": 3,
+        "synergies": [
+            "ninja",
+            "yordle",
+            "elementalist"
+        ]
+    },
+    {
+        "id": "khazix",
+        "riotId": "Khazix",
+        "name": "Kha'Zix",
+        "cost": 1,
+        "synergies": [
+            "void",
+            "assassin"
+        ]
+    },
+    {
+        "id": "kindred",
+        "riotId": "Kindred",
+        "name": "Kindred",
+        "cost": 4,
+        "synergies": [
+            "phantom",
+            "ranger"
+        ]
+    },
+    {
+        "id": "leona",
+        "riotId": "Leona",
+        "name": "Leona",
+        "cost": 4,
+        "synergies": [
+            "noble",
+            "guardian"
+        ]
+    },
+    {
+        "id": "lissandra",
+        "riotId": "Lissandra",
+        "name": "Lissandra",
+        "cost": 2,
+        "synergies": [
+            "glacial",
+            "elementalist"
+        ]
+    },
+    {
+        "id": "lucian",
+        "riotId": "Lucian",
+        "name": "Lucian",
+        "cost": 2,
+        "synergies": [
+            "noble",
+            "gunslinger"
+        ]
+    },
+    {
+        "id": "lulu",
+        "riotId": "Lulu",
+        "name": "Lulu",
+        "cost": 2,
+        "synergies": [
+            "yordle",
+            "sorcerer"
+        ]
+    },
+    {
+        "id": "miss-fortune",
+        "riotId": "MissFortune",
+        "name": "Miss Fortune",
+        "cost": 5,
+        "synergies": [
+            "pirate",
+            "gunslinger"
+        ]
+    },
+    {
+        "id": "mordekaiser",
+        "riotId": "Mordekaiser",
+        "name": "Mordekaiser",
+        "cost": 1,
+        "synergies": [
+            "phantom",
+            "knight"
+        ]
+    },
+    {
+        "id": "morgana",
+        "riotId": "Morgana",
+        "name": "Morgana",
+        "cost": 3,
+        "synergies": [
+            "demon",
+            "sorcerer"
+        ]
+    },
+    {
+        "id": "nidalee",
+        "riotId": "Nidalee",
+        "name": "Nidalee",
+        "cost": 1,
+        "synergies": [
+            "wild",
+            "shapeshifter"
+        ]
+    },
+    {
+        "id": "poppy",
+        "riotId": "Poppy",
+        "name": "Poppy",
+        "cost": 3,
+        "synergies": [
+            "yordle",
+            "knight"
+        ]
+    },
+    {
+        "id": "pyke",
+        "riotId": "Pyke",
+        "name": "Pyke",
+        "cost": 2,
+        "synergies": [
+            "pirate",
+            "assassin"
+        ]
+    },
+    {
+        "id": "reksai",
+        "riotId": "RekSai",
+        "name": "Rek'Sai",
+        "cost": 2,
+        "synergies": [
+            "void",
+            "brawler"
+        ]
+    },
+    {
+        "id": "rengar",
+        "riotId": "Rengar",
+        "name": "Rengar",
+        "cost": 3,
+        "synergies": [
+            "wild",
+            "assassin"
+        ]
+    },
+    {
+        "id": "sejuani",
+        "riotId": "Sejuani",
+        "name": "Sejuani",
+        "cost": 4,
+        "synergies": [
+            "glacial",
+            "knight"
+        ]
+    },
+    {
+        "id": "shen",
+        "riotId": "Shen",
+        "name": "Shen",
+        "cost": 2,
+        "synergies": [
+            "ninja",
+            "blademaster"
+        ]
+    },
+    {
+        "id": "shyvana",
+        "riotId": "Shyvana",
+        "name": "Shyvana",
+        "cost": 3,
+        "synergies": [
+            "dragon",
+            "shapeshifter"
+        ]
+    },
+    {
+        "id": "swain",
+        "riotId": "Swain",
+        "name": "Swain",
+        "cost": 5,
+        "synergies": [
+            "demon",
+            "imperial",
+            "shapeshifter"
+        ]
+    },
+    {
+        "id": "tristana",
+        "riotId": "Tristana",
+        "name": "Tristana",
+        "cost": 1,
+        "synergies": [
+            "yordle",
+            "gunslinger"
+        ]
+    },
+    {
+        "id": "twisted-fate",
+        "riotId": "TwistedFate",
+        "name": "Twisted Fate",
+        "cost": 2,
+        "synergies": [
+            "pirate",
+            "sorcerer"
+        ]
+    },
+    {
+        "id": "varus",
+        "riotId": "Varus",
+        "name": "Varus",
+        "cost": 2,
+        "synergies": [
+            "demon",
+            "ranger"
+        ]
+    },
+    {
+        "id": "vayne",
+        "riotId": "Vayne",
+        "name": "Vayne",
+        "cost": 1,
+        "synergies": [
+            "noble",
+            "ranger"
+        ]
+    },
+    {
+        "id": "veigar",
+        "riotId": "Veigar",
+        "name": "Veigar",
+        "cost": 3,
+        "synergies": [
+            "yordle",
+            "sorcerer"
+        ]
+    },
+    {
+        "id": "vi",
+        "riotId": "Vi",
+        "name": "Vi",
+        "cost": 3,
+        "synergies": [
+            "hextech",
+            "brawler"
+        ]
+    },
+    {
+        "id": "volibear",
+        "riotId": "Volibear",
+        "name": "Volibear",
+        "cost": 3,
+        "synergies": [
+            "glacial",
+            "brawler"
+        ]
+    },
+    {
+        "id": "warwick",
+        "riotId": "Warwick",
+        "name": "Warwick",
+        "cost": 1,
+        "synergies": [
+            "wild",
+            "brawler"
+        ]
+    },
+    {
+        "id": "yasuo",
+        "riotId": "Yasuo",
+        "name": "Yasuo",
+        "cost": 5,
+        "synergies": [
+            "exile",
+            "blademaster"
+        ]
+    },
+    {
+        "id": "zed",
+        "riotId": "Zed",
+        "name": "Zed",
+        "cost": 2,
+        "synergies": [
+            "ninja",
+            "assassin"
+        ]
+    }
+]
